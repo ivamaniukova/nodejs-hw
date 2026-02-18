@@ -25,7 +25,7 @@ app.use(
   }),
 );
 // Кореневий маршрут
-app.get('/', (req, res) => {
+app.get('/notes', (req, res) => {
   res.status(200).json({ message: 'Retrieved all notes'});
 });
 

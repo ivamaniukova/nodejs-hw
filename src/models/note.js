@@ -18,6 +18,7 @@ const noteSchema = new Schema(
         "Health",
         "Important",
         "Todo",
+        "Meeting",
       ],
     },
   },
